@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>PRACTICAL WD</title>
+<style>
+h1 {
+color: red;
+background-color: yellow;
+}
+</style>
+
+</head>
+<body bgcolor="lightblue" text="yellow" link="yellow" alink="red" vlink="orange">
+Practical 
+1--text formatting - h1-h6 <br> <hr>
+
+
+
+2--img, hyperlink, nested table <br>
+<img src="https://thf.bing.com/th/id/OIP.FiYdNWU2RNgc0MSC6x7GoAHaD5?">  <br>added an img from the web<br>
+<a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap</a> added a hyper link using an img from the web <br>
+ table and nested table below <br>
+<table border="3" bordercolor="black" cellspacing="8" cellpadding="2" align="centre" font size="4" color="yellow">
+	
+	<tr>
+	<th>Name</th>
+	<th>Age</th>
+	<th>Gender</th>
+	</tr>
+
+		<tr>
+		<td style="color:red; background-color:green">Ishitha </td> inline css
+		<td>20</td>
+		<td>Female</td>
+		</tr>
+			<tr>
+			<td>Shivani </td>
+			<td>19</td>
+			<td>Female</td>
+			</tr>
+				<tr>
+				<td>
+				 	<table>
+					<tr>
+					<th> mobile no.</th>
+					</tr>
+					<tr>
+					<td>9876543210</td>
+					</tr>
+					</table>
+				</td>
+</table>
+<hr> <br> <pre> ishtiha code</pre>	
+
+
+
+3-- create a form with name, gender, email, dob and submit button <br>
+Lets create a form 
+<form>
+Name:<input type="text" name="username"><br>
+Email:<input type="text" name="email address"><br>
+Gender:<input type="radio" value="Male">Male &nbsp;&nbsp; <input type="radio" value="Female">Female<br>
+DOB:<input type="int" name="dd/mm/yyyy"><br>
+<input type="SUBMIT" name="Submit">
+</form>
+
+
+4--Apply internal, external, and inline CSS to style a web page with headings
+and tables. 
+
+<H1 style="color: red; background-color: yellow">Ishitha  inline css</h1>
+Internal CSS added in head tag
+
+External CSS
+<link rel="stylesheet" href="style.css">
+
+
+5--Develop a responsive web page using Bootstrap Grid and Components.
+
+
+
+6-- Write a JavaScript program to validate form inputs (e.g., email, empty
+fields).
+<script>
+funtion validate form() 
+{
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value:
+
+if (name == ""|| email == ""){
+alert = "All fiels are necessary !!");
+return false; 
+}
+
+if (email.indexOf(@) == -1) {
+alert ("Please provide valid details");
+return false;
+}
+ return true;
+}
+</script> 
+</body>
+</html>
